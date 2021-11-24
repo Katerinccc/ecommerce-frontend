@@ -110,6 +110,8 @@ html{
     font-weight: 500;
 }
 
-.form-passwordRecovery p span{
+.form-passwordRecovery p span a{
     color: var(--primary-green);
+    text-decoration: none;
+    cursor: pointer;
 }
