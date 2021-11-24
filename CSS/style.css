@@ -45,6 +45,11 @@ html{
     margin-bottom: 15px;
 }
 
+.section-container .my-account{
+    text-align: initial;
+    margin-bottom: 40px;
+}
+
 .section-container p{
     font-size: 1.8rem;
     font-weight: 400;
@@ -62,13 +67,13 @@ html{
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--black);
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .input-form{
     border-radius: 10px;
     background-color: var(--text-input-field);
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     border: 1px solid var(--text-input-field);
     color: var(--very-light-grey);
     height: 42px;
@@ -125,26 +130,38 @@ html{
     cursor: pointer;
 }
 
-.form-login p{
+.form-login a{
     font-size: 1.4rem;
     color: var(--primary-green);
     margin-top: 20px;
+    align-self: center;
+    text-decoration: none;
 }
 
-.signUp-button{
+.secondary-button{
     height: 59px;
     border-radius: 10px;
     background-color: white;
     border: 1px solid var(--primary-green);
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 1.8rem;
     color: var(--primary-green);;
     cursor: pointer;
     font-weight: 700;
 }
 
+.create-button{
+    margin-top: 50px;
+}
+
 @media (max-width:640px){
     .logo{
         display: block;
+    }
+    .secondary-button{
+        margin-top: 200px;
+    }
+    .create-button{
+        margin-top: 200px;
     }
 }
