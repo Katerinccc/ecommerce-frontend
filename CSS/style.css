@@ -58,20 +58,26 @@ html{
     flex-direction: column;
 }
 
-.form-newPassword label{
+.form-newPassword label, .form-login label{
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--black);
     margin-bottom: 4px;
 }
 
-.input-password{
+.input-form{
     border-radius: 10px;
     background-color: var(--text-input-field);
     margin-bottom: 4px;
     border: 1px solid var(--text-input-field);
     color: var(--very-light-grey);
     height: 42px;
+}
+
+::placeholder{
+    color:#797979;
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .primary-button{
@@ -90,17 +96,20 @@ html{
     margin-top: 20px;
 }
 
-@media (max-width:640px){
-    .logo{
-        display: block;
-    }
+.form-passwordRecovery div{
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: var(--text-input-field);
+    margin-bottom: 16px;
 }
 
 .form-passwordRecovery img{
     width: 90px;
-    height: 57.81px;
-    align-self: center;
-    margin-bottom: 30px;
+    height: 57.81;
 }
 
 .form-passwordRecovery p{
@@ -114,4 +123,28 @@ html{
     color: var(--primary-green);
     text-decoration: none;
     cursor: pointer;
+}
+
+.form-login p{
+    font-size: 1.4rem;
+    color: var(--primary-green);
+    margin-top: 20px;
+}
+
+.signUp-button{
+    height: 59px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid var(--primary-green);
+    margin-top: 40px;
+    font-size: 1.8rem;
+    color: var(--primary-green);;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media (max-width:640px){
+    .logo{
+        display: block;
+    }
 }
