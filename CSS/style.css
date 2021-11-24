@@ -17,14 +17,14 @@ html{
     font-size: 62.5%;
 }
 
-.login{
+.main-container{
     width: 100%;
     height: 100vh;
     display: grid;
     place-items: center;
 }
 
-.container-newPassword{
+.section-container{
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 350px;
@@ -37,7 +37,7 @@ html{
     display: none;
 }
 
-.container-newPassword h1{
+.section-container h1{
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--black);
@@ -45,7 +45,7 @@ html{
     margin-bottom: 15px;
 }
 
-.container-newPassword p{
+.section-container p{
     font-size: 1.8rem;
     font-weight: 400;
     color: var(--very-light-grey);
@@ -53,7 +53,7 @@ html{
     margin-bottom: 40px;
 }
 
-.form-newPassword{
+.form-style{
     display: flex;
     flex-direction: column;
 }
@@ -94,4 +94,22 @@ html{
     .logo{
         display: block;
     }
+}
+
+.form-passwordRecovery img{
+    width: 90px;
+    height: 57.81px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.form-passwordRecovery p{
+    margin-top: 12px;
+    color: var(--very-light-grey);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.form-passwordRecovery p span{
+    color: var(--primary-green);
 }
