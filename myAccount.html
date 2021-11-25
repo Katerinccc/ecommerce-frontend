@@ -13,15 +13,17 @@
 <body>
     <main class="main-container">
         <section class="section-container">
-            <img src="./assets/Logos/logo_yard_sale.svg" alt="logo" class="logo">
-            <h1>Create a new password</h1>
-            <p>Enter a new password for your account</p>
-            <form action="/" class="form-newPassword form-style form-label">
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder=" *********" class="input-form">
-                <label for="new-password">Re-enter password</label>
-                <input type="password" id="new-password" placeholder=" *********" class="input-form">
-                <input type="submit" value="Confirm" class="primary-button login-button">
+            <h1 class="my-account">My account</h1>
+            <form action="/" class="form-myAccount form-style form-label">
+                <div class="my-account__section">
+                    <label for="name">Name</label>
+                    <p>Katerin Calderon</p>
+                    <label for="email">Email address</label>
+                    <p>platzi@example.com</p>
+                    <label for="password">Password</label>
+                    <p>platzi@example.com</p>
+                </div>
+                <input type="submit" value="Edit" class="secondary-button">
             </form>
         </section>
     </main>

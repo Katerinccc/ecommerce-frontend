@@ -68,11 +68,21 @@ html{
     flex-direction: column;
 }
 
-.form-newPassword label, .form-login label, .form-createAccount label{
+.form-label label {
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--black);
     margin-bottom: 8px;
+}
+
+.my-account__section{
+    display: flex;
+    flex-direction: column;
+}
+
+.my-account__section p{
+    font-size: 1.6rem;
+    text-align: initial;
 }
 
 .input-form{
