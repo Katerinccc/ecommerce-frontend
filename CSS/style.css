@@ -255,6 +255,56 @@ html{
     font-size: 1.4rem;
 }
 
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+}
+
+.mobile-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories , .account , .email{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.account{
+    margin: 0 0 20px 0;
+    border-top: 1px solid #ebe9e9c7;
+    padding-top: 24px;
+}
+
+.email{
+    margin-top: 50px;
+}
+
+.mobile-menu .categories li a, .mobile-menu .account li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    display: inline-block;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+
+.mobile-menu .email p{
+    font-size: 1.4rem;
+    color: var(--very-light-grey);
+    font-weight: 300;
+    padding-bottom: 4px;
+}
+
+.mobile-menu .email a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--primary-green);
+    font-weight: 500;
+}
 
 @media (max-width:640px){
     .logo{
