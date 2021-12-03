@@ -46,8 +46,25 @@
 
 .product-detail{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .product-detail img:nth-child(2){
     height: auto;
+}
+
+.my-shopping-cart img{
+    display: none;
+}
+
+.my-shopping-cart p{
+    display: none;
+}
+
+.shopping-cart-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

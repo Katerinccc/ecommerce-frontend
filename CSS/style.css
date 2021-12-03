@@ -320,9 +320,9 @@ html{
 }
 
 .my-order-container h1{
-    align-self: center;
     font-weight: bold;
     font-size: 1.6rem;
+    margin-top: 8px;
 }
 
 .my-orders-container{
@@ -371,6 +371,10 @@ html{
     text-align: end;
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+.order-shopping-cart{
+    height: 55px;
 }
 
 .shopping-cart{
@@ -490,7 +494,7 @@ nav{
     font-weight: 600;
 }
 
-.product-detail{
+.product-detail , .shopping-cart-container{
     width: 360px;
     padding-bottom: 24px;
     position: absolute;
@@ -563,4 +567,22 @@ nav{
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     margin-right: 8px;
+}
+
+.my-shopping-cart {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.my-shopping-cart img{
+    width: 20px;
+    height: 12px;
+}
+
+.my-shopping-cart p{
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-left: 8px;
 }
